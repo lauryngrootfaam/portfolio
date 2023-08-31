@@ -1,0 +1,1720 @@
+*importeren van lettertype*/
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FFF7F1;
+    font-family: sans-serif;
+    font-family: "montserrat", sans-serif;
+}
+
+main,
+footer {
+    margin: 10vh 10vw;
+}
+
+/*navigatie*/
+nav {
+    background-color: #393535;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7em 10vw;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF7F1;
+    font-size: 1em;
+
+}
+
+nav a {
+    margin-right: 3em;
+    transition: 0.4s ease-out;
+}
+
+a:hover {
+    color: #FF8500;
+    cursor: pointer;
+}
+
+
+/*logo binnen navigatie*/
+
+#logo img {
+    width: 48px;
+    height: 49px;
+}
+
+#logo:hover {
+    transform: translate(0%, 5%);
+}
+
+/* hamburger menu */
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background-color: #FFF7F1;
+}
+
+
+/* headers */
+
+h1 {
+    color: #FF8500;
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 1.5em
+}
+
+/* LANDING PAGE  */
+
+
+section {
+    height: auto;
+}
+
+.landing {
+    height: 80vh;
+}
+
+.landing a {
+    background-color: #B2886B;
+    display: inline-block;
+    margin-top: 6vh;
+    color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.landing a:hover {
+    background-color: #FFBE78;
+    color: #393535;
+}
+
+.landing section a {
+    margin-top: 100px;
+}
+
+
+/* CONTENT SECTIE */
+
+/* Sectie met mijn werk (ervaring) */
+
+.work-section h1 {
+    font-size: 2em;
+}
+
+.work-section h2 {
+    color: black;
+}
+
+.work-section h3 {
+    color: #393535;
+}
+
+.inner-work-section {
+    padding: 20px 0px;
+}
+
+.inner-work-section {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    height: auto;
+}
+
+.work-item {
+    text-align: center;
+    height: 1em;
+    min-height: 46vh;
+    max-height: 50vh;
+    padding: 1em;
+    transition: 0.3s;
+}
+
+/* achtergrond kleuren */
+
+.work-item:first-child{
+    background-color: rgb(153, 225, 247);
+}
+
+
+.work-item:nth-child(2){
+    background-color:rgb(204,236,244);
+}
+
+.work-item:nth-child(3){
+    background-color: rgb(229,241,242);
+}
+
+.work-item:nth-child(4){
+    background-color: rgb(255,133,0);
+}
+
+.work-item:nth-child(5){
+    background-color: rgb(255,190,120);
+}
+
+.work-item:last-child{
+    background-color: rgb(255,218,181);
+}
+.work-item:hover{
+    background-color: yellow;
+}
+
+/* HOVER */
+.work-item:first-child:hover {
+    background-color: rgb(153, 225, 247, 0.5);
+}
+
+.work-item:nth-child(2):hover{
+    background-color:rgb(204,236,244, 0.5);
+}
+
+.work-item:nth-child(3):hover{
+    background-color: rgb(229,241,242, 0.5);
+}
+
+.work-item:nth-child(4):hover{
+    background-color: rgb(255,133,0, 0.7);
+}
+
+.work-item:nth-child(5):hover{
+    background-color: rgb(255,190,120, 0.7);
+}
+
+.work-item:last-child:hover{
+    background-color: rgb(255,218,181, 0.7);
+}
+
+
+/* .doorson {
+    background-color: #99E1F7;
+}
+
+.eve {
+    background-color: #CCECF4;
+}
+
+.dalove {
+    background-color: #E5F1F2;
+}
+
+
+.closet {
+    background-color: #FF8500;
+}
+
+.lowlands {
+    background-color: #FFBE78;
+}
+
+.travel {
+    background-color: #FFDAB5;
+} */
+
+/* Afbeeldingen binnen work-item*/
+
+.doorson img {
+    width: 100%;
+    height: auto;
+}
+
+.eve img {
+    width: 80%;
+    height: auto;
+}
+
+.dalove img {
+    width: 100%;
+    height: auto;
+    margin-top: 4em;
+}
+
+.closet img {
+    width: 32%;
+    height: auto;
+}
+
+
+.lowlands img {
+    margin-top: 3em;
+    width: 90%;
+    height: auto;
+}
+
+.travel img {
+    margin-top: 0.5em;
+    width: 56%;
+    height: auto;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: block;
+    margin-top: 10em;
+}
+
+footer a {
+    color: #393535;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+
+}
+
+footer li {
+    list-style: none;
+    margin: 1em;
+}
+
+footer li:hover {
+    opacity: 0.7;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#top {
+    display: block;
+    text-align: center;
+}
+
+/* CONTACTPAGINA */
+form {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+}
+
+form li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 5px;
+}
+
+form a {
+    color: #393535;
+}
+
+form a:hover {
+    color: #f8f8f8;
+}
+
+form h1 {
+    font-size: 2em;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+}
+
+.left-fieldset {
+    background-color: #99E1F7;
+    border-radius: 10px 0px 0px 10px;
+    padding: 50px;
+}
+
+.right-fieldset {
+    background-color: #f8f8f8;
+    border-radius: 0px 10px 10px 0px;
+    padding: 50px 20px 0px 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea[type=message] {
+    display: block;
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    border: 2px solid #FFDAB5;
+    border-radius: 50px;
+    background-color: #f8f8f8;
+
+}
+
+textarea {
+    display: block;
+    border: none;
+    width: 60%;
+    height: 100px;
+    padding: 12px 20px;
+    border: 2px solid #FFDAB5;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin: 16px auto;
+}
+
+input[type=submit] {
+    display: block;
+    width: 70%;
+    min-width: 300px;
+    background-color: #FF8500;
+    color: white;
+    padding: 14px 20px;
+    margin: 32px auto;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+
+input[type=submit]:hover {
+    background-color: #FFBE78;
+}
+
+
+/* OVER MIJ PAGINA */
+
+.overMij {
+    margin: 16vh 0px 12vh 0px;
+    width: 900px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+
+}
+
+.overMij a {
+    background-color: #99E1F7;
+    color: #393535;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.overMij a:hover {
+    background-color: #CCECF4;
+    color: #FF8500;
+}
+
+.overMij h1 {
+    font-size: 3em;
+}
+
+.overMij p {
+    margin-bottom: 90px;
+}
+
+.overMij img {
+    width: 360px;
+    height: auto;
+
+}
+
+#funfacts {
+
+    width: 40%;
+}
+
+#voetbal {
+
+    width: 80%;
+    height: auto;
+}
+
+#yard {
+    width: 70%;
+    height: auto;
+}
+
+/* DETAIL PAGINA'S */
+
+.detailPagina h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.detailPagina p {
+    width: 70%;
+}
+
+.detailPagina li {
+    list-style-type: "\00BB ";
+}
+
+.detailPagina a {
+    color: #FF8500;
+}
+
+#designChallenge {
+    font-style: italic;
+}
+
+.detailDoorson img,
+.detailEve img,
+.detailLove img,
+.detailLowlands img {
+    display: block;
+    margin: 0px auto;
+    width: 40%;
+    height: auto;
+}
+
+
+
+.detailEve img {
+    width: 25%;
+    margin-bottom: 6vh;
+}
+
+.detailcloset img {
+    display: block;
+    margin: 0px auto;
+    width: 10%;
+    height: auto;
+}
+
+.detailPlanit img {
+    display: block;
+    margin: 0px auto;
+    width: 18%;
+    height: auto;
+}
+
+/* DIT HOEFT GEEN ID TE ZIJN? */
+#doorsonboek,
+.detailLove .caseSection img {
+    position: relative;
+    display: block;
+    float: right;
+    width: 60%;
+    height: auto;
+    bottom: 10px;
+    right: 90px;
+}
+
+/* verschillende section detailpagina */
+
+/* MAIN VOOR DETAILPAGINA'S */
+
+.mainDetailPagina {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* LANDING */
+.landingSection {
+    height: 65%;
+}
+
+.landingSection p {
+    display: block;
+    margin: 0px auto;
+}
+
+
+.landingSection h2,
+.landingSection p {
+    text-align: center;
+}
+
+.innerSection {
+    margin: 10vh 10vw 0vh 10vw;
+    padding: 10vh 0 14vh 0;
+    max-height: 48vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#greetings{
+    position: relative;
+    animation: Greetings;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    z-index: -10;
+}
+
+@keyframes Greetings {
+0% {
+    top: -50px;
+}
+100% {
+    top: 0px;
+}
+}
+
+
+.t {
+    animation-name: titleflip;
+    animation: titleflip 5s ease-in-out infinite;
+      }
+  
+  @keyframes titleflip {
+    0%, 20% {
+    transform: translate(0px, -12.50em);
+    }
+    20%,
+    40% {
+   transform: translate(0px, -9.375em);
+    }
+    40%,
+    60% {
+      -webkit-transform: translate(0px, -6.44em);
+    }
+    60%,
+    80% {
+    transform: translate(0px, -3.44em);
+    }
+    80%,
+    100% {
+    transform: translate(0px, -0.315em);
+    }
+    100%,
+    0% {
+      transform: translate(0px, -12.50em);
+    }
+  }
+
+/* CASE SECTION */
+
+.caseSection {
+    background-color: #CCECF4;
+}
+
+.caseSection h2,
+.procesSection h2,
+.reflectionSection h2,
+.taskSection h2 {
+    font-size: 2.8em;
+}
+
+
+/* PROCES SECTION */
+
+.procesSection {
+    background-color: #fff;
+    padding: 10vh 0vw 10vh 0vw;
+}
+
+.procesSection h2,
+.reflectionSection h2,
+.taskSection h2 {
+    margin: 0px;
+    text-align: center;
+}
+
+.proces {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    padding: 5vh 10vw;
+}
+
+.proces p,
+.proces h3 {
+    padding: 10px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.proces article {
+    padding: 20px;
+}
+
+
+/* REFLECTION SECTION */
+
+.reflectionSection {
+    background-color: #FFDAB5;
+    padding: 2vh 0vw 12vh 0vw;
+}
+
+.reflectie {
+    display: block;
+    padding: 10px;
+}
+
+.reflectie p,
+.sectionThree .proces p {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* TASKS SECTION */
+
+.taskSection {
+    background-color: #FF8500;
+    padding: 0.5vh 0vw 10.5vh 0vw;
+}
+
+.taskSection h2 {
+    text-align: left;
+    margin-bottom: 4vh;
+
+}
+
+.taken {
+    display: block;
+    padding: 10px;
+}
+
+/* dalove */
+
+/* Landing Section */
+
+.detailLove .landingSection img {
+    display: block;
+    margin: 80px auto;
+}
+
+/* proces */
+/* Section 1 */
+
+.detailLove .proces {
+    padding-bottom: 1vh;
+}
+
+.detailLove .procesSection img {
+    position: relative;
+    display: block;
+    float: right;
+    width: 110%;
+    height: auto;
+    top: 40px;
+    left: 40px;
+
+}
+
+/* Sedtion 2 */
+
+.sectionTwo .proces,
+.conceptSection {
+    background-color: #FFF7F1;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sectionTwo ul {
+    text-align: center;
+    list-style-position: inside;
+
+}
+
+.sectionTwo {
+    padding: 0;
+}
+
+
+/* Section 3 */
+
+.sectionThree .proces {
+    display: block;
+    padding: 10px;
+}
+
+.sectionThree {
+    padding-top: 120px;
+}
+
+
+/* EVE */
+
+/* CASE SECTION */
+.detailEve .case img {
+    position: relative;
+    display: block;
+    float: right;
+    width: 100%;
+    height: auto;
+    top: 60px;
+    left: 40px;
+}
+
+/* PROCES SECTION */
+.detailEve .procesSection {
+    padding: 18vh 0vw 0vh 0vw;
+    margin-bottom: 0px;
+}
+
+.detailEve .proces {
+    grid-template-columns: 1fr;
+}
+
+.detailEve .proces p {
+    width: 60%;
+}
+
+#designChallenge {
+    width: 40%;
+}
+
+.detailEve .sectionTwo .proces {
+    background-color: #FFF7F1;
+    grid-template-columns: 1fr 1fr;
+}
+
+.conceptSection {
+    display: block;
+    background-color: #fff;
+    margin-top: -10vh;
+    padding: 0;
+}
+
+video {
+
+    position: relative;
+    display: block;
+    float: right;
+    width: 100%;
+    height: auto;
+    left: 200px;
+    top: -80px;
+    margin: 10vh 10vw;
+}
+
+
+
+.eveDesign img {
+    display: block;
+    width: 50%;
+    height: auto;
+    position: relative;
+    top: -90px;
+}
+
+.eveDesign {
+    padding: 0;
+
+}
+
+/* PLANIT */
+.detailPlanit .case img {
+
+    width: 70%;
+    height: auto;
+
+}
+
+.detailPlanit .proces img {
+    position: relative;
+    width: 140%;
+    height: auto;
+    left: -60px;
+    top: -30px;
+}
+
+.detailPlanit .reflectie img {
+    width: 40%;
+    height: auto;
+}
+
+/* Lowlands */
+
+.detailLowlands .case img{
+    width:70%;
+    height:auto;
+}
+
+.detailLowlands .proces img{
+    width: 100%;
+    height: auto;
+}
+
+/* Pyo */
+.detailCloset .case img{
+    width: 40%;
+    height: auto;
+}
+
+.detailCloset .proces {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+#karakter{
+    margin-top: 20px;
+    width: 50%;
+    height: auto; 
+}
+
+#designProces {
+    margin-top: 6vh;
+    width: 70%;
+    height: auto;
+}
+
+
+
+.codepen {
+    height: 249px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.pyoSectionTwo {
+    background-color: #FFF7F1;
+}
+
+
+
+
+
+/* toevoegingen */
+/* filter work */
+.filter-option{
+    width: 100px;
+    height: 46px;
+    border: none;
+    background-color: #D8CFCF;
+    color: #383535;
+    font-weight: bold;
+    font-family: montserrat;
+}
+
+.filter-option:hover{
+    background-color: #e2d8d8;
+}
+
+.active-btn{
+background-color: #383535 ;
+color: #D8CFCF;
+}
+
+.active-btn:hover{
+    background-color: #383535  ;
+    }
+
+.hidden{
+    display: none;
+}
+
+
+
+/* RESPONSIVE DESIGN */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    h1 {
+        /* grid-area: introduction; */
+        color: #FF8500;
+        font-size: 3.5em;
+    }
+
+    h2 {
+        font-size: 1.5em
+    }
+
+}
+
+
+/* medium devices*/
+
+@media (max-width: 1400px) {
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    .inner-work-section {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    /* work-item */
+
+
+    .work-item {
+        height: 1em;
+        min-height: 40vh;
+    }
+
+
+    /* detailpagina */
+
+    .detailPagina p,
+    .detailPagina ul,
+    .detailPagina h1,
+    .detailPagina h2,
+    .detailPagina h3,
+    #designChallenge,
+    .detailPagina img {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .detailPagina ul {
+        margin: 4vh auto;
+    }
+
+    .detailPagina h1,
+    .detailPagina h2,
+    .detailPagina h3 {
+        margin: 3vh auto;
+    }
+
+    .detailPagina img {
+        margin: 4vh auto;
+    }
+
+    .detailLove img {
+        display: block;
+        width: 60%;
+        height: auto;
+    }
+
+    .closet img {
+        display: block;
+        margin: 8vh auto;
+        width: 25%;
+    }
+
+
+
+    #doorsonboek {
+        width: 50%;
+        height: auto;
+    }
+
+    /*  DETAILPAGINA SECTIONS */
+    .landingSection img {
+        width: 80%;
+        height: auto;
+    }
+
+    .detailEve img {
+        display: block;
+        width: 50%;
+        height: auto;
+    }
+
+    .detailPlanit img {
+        display: block;
+        width: 40%;
+        height: auto;
+    }
+
+    /* CASE SECTION TABLET */
+
+    .innerSection {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    #doorsonboek {
+        width: 100%;
+        height: auto;
+        left: 60px;
+    }
+
+    /* PROCES SECTION TABLET*/
+
+    .procesSection {
+        padding-bottom: 40vh;
+    }
+
+    /* REFLECTION SECTION */
+
+    .reflectionSection {
+        padding-top: 0.5vh;
+    }
+
+    /* TASKS SECTION  TABLET*/
+
+    .taskSection {
+        padding-bottom: 6vh;
+    }
+
+    .taskSection h2 {
+        text-align: center;
+    }
+
+    .taskSection ul {
+        text-align: center;
+        list-style-position: inside;
+    }
+
+    .taken {
+        padding: 2px;
+    }
+
+
+    /* dalove Sections Tablet*/
+    /* proces */
+    /* Sedtion 2 */
+    .sectionTwo .proces {
+        /* grid-template-columns: 1fr  1fr; */
+        padding: 8vh 0;
+    }
+
+    .detailLove .procesSection img {
+        position: relative;
+        display: block;
+        float: right;
+        width: 100%;
+        height: auto;
+        top: -220px;
+        left: 400px;
+
+    }
+
+    /* Sedtion 2 */
+
+
+    .sectionTwo .proces h3,
+    .sectionTwo .proces ul {
+        margin: 0;
+    }
+
+    /* Section 3 */
+
+    .sectionThree .proces {
+        padding: 0 0 4vh 0;
+    }
+
+    .sectionThree {
+        margin: 0;
+        background-color: greenyellow;
+        padding: 10px 0;
+    }
+
+
+    /* EVE Sections Tablet*/
+    .detailEve .landingSection {
+        height: 75%;
+
+    }
+
+    .detailEve .procesSection {
+        padding: 4vh 0vw 0vh 0vw;
+    }
+
+    .conceptSection {
+        grid-template-columns: 1fr;
+        padding-bottom: 10vh;
+
+    }
+
+
+    video {
+        float: center;
+        left: 140px;
+        top: 40px;
+    }
+
+    .eveDesign img {
+        width: 100%;
+        top: 0px;
+    }
+
+    /* Planit */
+
+
+    .detailPlanit .case img {
+        width: 100%;
+        position: relative;
+        left: 50px;
+        top: 60px;
+    }
+
+    .detailPlanit .proces img {
+        position: relative;
+        width: 180%;
+        height: auto;
+        left: 200px;
+        top: -320px;
+    }
+
+    .detailPlanit .reflectie img {
+        width: 60%;
+    }
+
+    .detailPlanit .reflectie h3 {
+        text-align: center;
+    }
+
+    /* Lowlands */
+    .detailLowlands .proces img{
+        width: 120%;
+        height: auto;
+    }
+
+    .detailLowlands .proces {
+        padding-bottom: 20vh;
+        
+    }
+
+    /* pyo */
+
+    .detailCloset .landingSection img {
+        width: 20%;
+        height: auto;
+    }
+
+    .detailCloset .case img{
+        width: 60%;
+        height: auto;
+    }
+    
+    .detailCloset .procesSection {
+        padding-bottom: 10vh;
+    }
+
+    .pyoSectionTwo .proces{
+       grid-template-columns:repeat(1,1fr);
+       padding-bottom: 14vh;
+       padding-top: 0;
+    }
+
+
+
+    /* Over mij */
+
+    .overMij {
+        margin: 10vh auto;
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+    .overMij img {
+        display: block;
+        width: 40%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .overMij h1 {
+        display: block;
+        font-size: 2em;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    .overMij p {
+        display: block;
+        margin: 0px auto 90px auto;
+        width: 80%;
+    }
+
+    .overMij a {
+        display: block;
+        width: 80%;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+
+    #funfacts {
+        display: block;
+        margin: 0px auto;
+        width: 80%;
+    }
+
+    /* contact */
+
+    main form {
+        margin: 10vh 20vw;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
+
+
+    .left-fieldset {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .right-fieldset {
+        border-radius: 0px 0px 10px 10px;
+        padding: 80px 20px 0px 20px;
+    }
+
+    form li {
+        margin: 10px 5px;
+    }
+
+}
+
+
+/* Small devices*/
+@media only screen and (max-width: 768px) {
+
+    /* Landing pagina */
+
+    h1 {
+        font-size: 2.5em;
+        display: block;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        display: block;
+        text-align: center;
+    }
+
+    .landing a {
+        display: block;
+        margin-top: 30vh;
+        text-align: center;
+    }
+
+    /* mobile Menu */
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    nav ul {
+        position: absolute;
+        display: none;
+        top: 3.45em;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        background-color: #393535;
+        border-top: white solid 1px;
+    }
+
+    nav ul.active {
+        display: flex;
+        left: 0;
+    }
+
+    nav li {
+        margin: 20px 20px 20px 0;
+    }
+
+
+    #align {
+        margin-left: 0%;
+
+    }
+
+    /* work section */
+
+    .inner-work-section {
+        grid-template-columns: 1fr;
+    }
+
+    /* work-item */
+
+    .work-item {
+        height: auto;
+    }
+
+    /* detailpagina */
+
+    .detailPagina p,
+    #designChallenge {
+        display: block;
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    #designChallenge {
+        margin: 4vh 5%;
+    }
+
+    .detailPagina h1,
+    .detailPagina h2,
+    .detailPagina h3 {
+
+        display: block;
+        width: 90%;
+        margin: 3vh auto;
+    }
+
+    .detailEve img,
+    .detailLove img {
+        display: block;
+        width: 80%;
+        height: auto;
+    }
+
+    .closet img {
+        display: block;
+        margin: 8vh auto;
+        width: 30%;
+    }
+
+    .detailPlanit img {
+        display: block;
+        width: 60%;
+        height: auto;
+    }
+
+    .detailPagina p {
+        text-align: center;
+    }
+
+    #doorsonboek,
+    .detailLove .caseSection img {
+        width: 80%;
+        height: auto;
+        margin-top: 80px;
+        left: -40px;
+    }
+
+
+    /*  DETAILPAGINA SECTIONS */
+    .caseSection h2,
+    .procesSection h2,
+    .reflectionSection h2,
+    .taskSection h2 {
+        font-size: 2em;
+    }
+
+    /* LANDING */
+    .landingSection {
+        height: 65%;
+    }
+
+
+    /* CASE SECTION MOBILE */
+
+    .innerSection {
+        grid-template-columns: 1fr;
+        padding: 6vh 10vw 50vh 10vw;
+        margin: 0vh 0vw;
+    }
+
+
+    /* PROCES SECTION MOBILE */
+
+    .procesSection {
+        background-color: #fff;
+        padding: 6vh 0vw 30vh 0vw;
+    }
+
+    .proces {
+        padding-top: 0px;
+        padding-bottom: 100%;
+    }
+
+    .proces article {
+        padding: 2px;
+
+    }
+
+    /* REFLECTION SECTION MOBILE*/
+
+    .reflectionSection {
+        padding-bottom: 10vh;
+    }
+
+    .reflectie {
+        padding: 10px;
+    }
+
+    .reflectie p {
+        width: 70%;
+
+    }
+
+    /* TASKS SECTION  MOBILE*/
+
+    .taken {
+        padding: 20px;
+    }
+
+
+    /* dalove Sections */
+    /* proces */
+    /* Section 1 */
+
+    .detailLove .proces {
+        padding-bottom: 60vh;
+    }
+
+    .detailLove .procesSection img {
+        position: relative;
+        display: block;
+        float: right;
+        width: 110%;
+        height: auto;
+        top: 40px;
+        left: 20px;
+    }
+
+    /* Sedtion 2 */
+    .sectionTwo .proces {
+        grid-template-columns: 1fr;
+        padding: 8vh 0;
+    }
+
+    .sectionTwo .proces h3,
+    .sectionTwo .proces ul {
+        margin: 0;
+    }
+
+
+    .sectionTwo .proces p,
+    .sectionThree .proces p {
+        width: 70%;
+    }
+
+
+    .sectionTwo {
+        padding: 0px;
+    }
+
+
+    /* Section 3 */
+
+    .sectionThree .proces {
+        padding: 0 0 4vh 0;
+    }
+
+    .sectionThree {
+        padding: 10px 0;
+    }
+
+    .detailLove .landingSection {
+        height: 85%;
+    }
+
+
+    /* eve sections */
+
+    .detailEve .landingSection {
+        height: 85%;
+
+    }
+
+    .detailEve .case img {
+        float: center;
+        top: 60px;
+        left: 0px;
+    }
+
+    .detailEve .procesSection {
+        padding: 10vh 0vw 0vh 0vw;
+    }
+
+    .detailEve .procesSection p {
+        width: 100%;
+    }
+
+    .conceptSection {
+        margin-top: -30vh;
+
+    }
+
+    .conceptSection {
+        text-align: center;
+    }
+
+    video {
+        float: center;
+        left: 10vw;
+        top: 0px;
+    }
+
+    .eveDesign img {
+        width: 100%;
+        top: 0px;
+    }
+
+    /* Planit */
+    .detailPlanit .landingSection {
+        height: 85%;
+
+    }
+    .detailPlanit .case{
+        padding-bottom: 12vh;
+    }
+
+    .detailPlanit .case img {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 60px;
+    }
+
+     .detailPlanit .proces img {
+        position: relative;
+        width: 160%;    
+        left: -100px;
+        top: -60px;
+    }
+
+    .detailPlanit .proces {
+        padding-bottom: 120vh;
+    }
+
+     /* Lowlands */
+     .detailLowlands .proces img{
+        width: 100%;
+        height: auto;
+    }
+
+    .detailLowlands .case {
+        padding-bottom: 10vh;
+        
+    }
+
+    .detailLowlands .proces {
+        padding-bottom: 80vh;
+        
+    }
+
+    /* pyo */
+    .detailCloset .case{
+      padding-bottom: 10vh;
+    }
+
+    #karakter{
+        margin-top: 20px;
+        width: 100%;
+        height: auto; 
+    }
+    
+    #designProces {
+        margin-top: 6vh;
+        width: 100%;
+        height: auto;
+    }
+
+    .detailCloset .proces{
+        grid-template-columns:repeat(1,1fr);
+        padding-bottom: 70vh;
+        padding-top: 0;
+     }
+
+     .pyoSectionTwo .proces{
+        padding-bottom: 16vh;
+        padding-top: 0;
+     }
+ 
+
+
+
+
+
+    /* Over mij */
+
+    .overMij {
+        margin: 10vh auto;
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+    .overMij img {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: 0px auto;
+    }
+
+    .overMij h1 {
+        display: block;
+        font-size: 2em;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    .overMij p {
+        text-align: center;
+    }
+
+    #funfacts {
+        display: block;
+        margin: 0px auto;
+        width: 90%;
+    }
+
+    /* contact */
+
+    main form {
+
+        margin: 4vh -4vw;
+    }
+
+    form h1 {
+        font-size: 1.8em;
+    }
+
+    .left-fieldset {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .right-fieldset {
+        padding: 40px 20px 0px 20px;
+    }
+
+    form li {
+        margin: 10px 10px;
+    }
+
+    .work-section h1 {
+        text-align: left;
+    }
+}
+
+
+

@@ -1,0 +1,138 @@
+<html lang="nl">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Lauryn | Home </title>
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/f63b7b4249.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a id="logo" href="index.html"><img src="images/logo.png" alt="logo Lauryn"></a>
+            <ul class="nav-menu">
+
+                <li id="align"><a href="#work-section">Mijn werk</a></li>
+                <li><a href="overmij.html">Over Mij</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+        <section class="landing">
+            <h1><span id="greetings">Hey, </span><br id="hello"> Ik ben Lauryn <br> Grootfaam</h1>
+            <h2>Front-end Developer & UX Designer</h2>
+            <p>Momenteel bezig met mijn nieuwe portfolio :)</p>
+            
+
+            <a href="contact.html">Laten we samenwerken &#8594;</a>
+
+        </section>
+
+        <!-- ux frontend -->
+
+
+        <!--sectie met mijn werk-->
+        <section class="work-section" id="work-section">
+            <h1>Mijn werk</h1>
+            <div class="filter">
+                <button class="filter-option active-btn" data-filter="*" onclick=filterWork(event)>Alles</button>
+                <button class="filter-option" data-filter="ux" onclick=filterWork(event)>UX/UI</button>
+                <button class="filter-option" data-filter="frontend" onclick=filterWork(event)>Front-end</button>
+            
+            </div>
+
+            <section class="inner-work-section">
+           
+                    <section class="work-item doorson ux frontend">
+                        <a href="doorson.html">
+                        <h2>Doorson Papers</h2>
+                        <h3>Website for the book "The Doorsons"</h3>
+                        <img src="images/doorsonpapers.png" alt="Website for the book the doorsons">
+                        </a>
+                    </section>
+                        <section class="work-item eve ux">
+                            <a href="eve.html">
+                            <h2>EVE</h2>
+                            <h3>Food waste reduction application</h3>
+                            <img src="images/62.png" alt="Prototype of Eve, the food reduction application">
+                        </a>
+                        </section>
+                   
+                        <section class="work-item dalove frontend">
+                            <a href="dalove.html">
+                            <h2>DaLove</h2>
+                            <h3>Dating web application</h3>
+                            <img src="images/3.png" alt="Prototype of dating application Da Love">
+                        </a>
+                        </section>
+                   
+                
+                        <section class="work-item closet frontend">
+                            <a href="closet.html">
+                            <h2>Pick my outfit</h2>
+                            <h3>Javascript basics</h3>
+                            <img src="images/pyo.svg" alt="Pick-your-outfit system">
+                        </a>
+                        </section>
+                  
+                
+                        <section class="work-item lowlands frontend">
+                            <a href="lowlands.html">
+                            <h2>Lowlands Festival</h2>
+                            <h3>The recreation of the Lowlands website 2019</h3>
+                            <img src="images/lowlands.png" alt="Redesign lowlands website 2019">
+                        </a>
+                        </section>
+            
+                    
+                        <section class="work-item travel ux">
+                            <a href="planit.html">
+                            <h2>Plan It</h2>
+                            <h3>Activities Travel App </h3>
+                            <img src="images/planit.png" alt="Prototype of Planit, a activity travel application">
+                        </a>
+
+                        </section>
+                
+            </section>
+        </section>
+    </main>
+    <footer>
+
+        <p>Copyright <i class="far fa-copyright"></i> Lauryn Grootfaam 2021</p>
+        <a href="#logo" id="top">Terug naar Boven <i class="fas fa-angle-up"></i></a>
+
+        <ul>
+            <li><a href="https://www.linkedin.com/in/lauryngrootfaam/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/lauryngrootfaam" target="_blank"><i class="fab fa-github-square"></i></a>
+            </li>
+            <li> <a href="https://www.instagram.com/lauryngr_/" target="_blank"><i
+                        class="fab fa-instagram-square"></i></a></li>
+            <li> <a href="https://www.facebook.com/lauryn.grootfaam/" target="_blank"><i
+                        class="fab fa-facebook-square"></i></a></li>
+            <li> <a href="mailto:grootfaamlauryn@gmail.com"><i class="fas fa-envelope-square"></i></a></li>
+
+        </ul>
+
+
+    </footer>
+
+
+
+    <script src="js/javascript.js"></script>
+
+</body>
+
+</html>
